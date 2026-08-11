@@ -9,13 +9,13 @@
 
 ```bash
 chmod +x mdc-common-init.sh
-./mdc-common-init.sh ctrl02
+./mdc-common-init.sh (각 서버 호스트명 ex: ctrl02)
 ```
 
 DNS를 변경하려면:
 
 ```bash
-DNS1=10.0.0.53 DNS2=10.0.0.54 ./mdc-common-init.sh ctrl02
+DNS1=8.8.8.8 DNS2=1.1.1.1 ./mdc-common-init.sh ctrl02
 ```
 
 ## 주요 기능
@@ -40,3 +40,13 @@ DNS1=10.0.0.53 DNS2=10.0.0.54 ./mdc-common-init.sh ctrl02
 - Docker
 - Kolla-Ansible
 - OVS/OVN/br-ex
+
+## 파일
+- `mdc-ssh-key-bootstrap.sh`
+
+## 사용법
+
+```bash
+chmod +x mdc-ssh-key-bootstrap.sh
+./mdc-ssh-key-bootstrap.sh enable
+```
