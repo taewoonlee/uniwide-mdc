@@ -50,3 +50,10 @@ DNS1=8.8.8.8 DNS2=1.1.1.1 ./mdc-common-init.sh ctrl02
 chmod +x mdc-ssh-key-bootstrap.sh
 ./mdc-ssh-key-bootstrap.sh enable
 ```
+
+## 파일
+- `03-openstack-host-prep.sh`
+
+### 사용법
+chmod +x 03-openstack-host-prep.sh
+./03-openstack-host-prep.sh
