@@ -57,3 +57,10 @@ chmod +x mdc-ssh-key-bootstrap.sh
 ### 사용법
 chmod +x 03-openstack-host-prep.sh
 ./03-openstack-host-prep.sh
+
+## 파일
+- `scripts/precheck/01-all-node-precheck.sh`
+
+### 사용법
+chmod +x /root/01-all-node-precheck.sh
+/root/01-all-node-precheck.sh | tee /root/mdc-precheck-result.txt
